@@ -1,0 +1,15 @@
+# prices.yaml - model tiers -> litellm model name + price per 1M tokens.
+# PLACEHOLDERS: replace with the organizers' price sheet (same keys).
+currency: "$"
+small:
+  model: "openai/gpt-4o-mini"
+  input_per_1m: 0.15
+  output_per_1m: 0.60
+medium:
+  model: "openai/gpt-4.1-mini"
+  input_per_1m: 0.40
+  output_per_1m: 1.60
+large:
+  model: "openai/gpt-4.1"
+  input_per_1m: 2.00
+  output_per_1m: 8.00
